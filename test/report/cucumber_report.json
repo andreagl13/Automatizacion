@@ -1,0 +1,112 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Log in Ping ID to access SD Web",
+        "description": "",
+        "id": "ping-id;log-in-ping-id-to-access-sd-web",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User is on the PingID access",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Write User and password and push on the button connect",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Access to SD Web",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@PingID"
+          },
+          {
+            "line": 5,
+            "name": "@fast"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Download list of order on one store",
+        "description": "",
+        "id": "ping-id;download-list-of-order-on-one-store",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "Access to SD Web on page list of orders",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "Choose the particular store, date and download",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "Every file is downloaded",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@DownloadAllStore"
+          },
+          {
+            "line": 17,
+            "name": "@fast"
+          }
+        ]
+      }
+    ],
+    "name": "Ping ID",
+    "description": "Log in Ping ID",
+    "id": "ping-id",
+    "keyword": "Feature",
+    "uri": "AccessSD.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Functional"
+      }
+    ]
+  }
+]
